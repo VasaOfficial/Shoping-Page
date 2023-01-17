@@ -5,16 +5,13 @@ const Home = () => {
   return (
     <div className="homepage">
       <div className="card">
-        <h3>Card 1</h3>
-        <p>Card discription</p>
+        <h3>Ancient Coins</h3>
       </div>
       <div className="card">
-        <h3>Card 2</h3>
-        <p>Card discription 2</p>
+        <h3>Paintings</h3>
       </div>
       <div className="card">
-        <h3>Card 3</h3>
-        <p>Card discription 3</p>
+        <h3>Masks</h3>
       </div>
     </div>
   );
