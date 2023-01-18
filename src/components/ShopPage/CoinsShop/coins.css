@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 body {
   background-color: whitesmoke;
-  overflow: -moz-hidden-unscrollable;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .coin-page {
