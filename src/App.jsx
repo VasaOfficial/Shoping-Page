@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/HomePage/Homepage";
 import Navbar from "./components/NavBar/Navbar";
-import CoinsShop from "./components/ShopPage/CoinsShop";
+import CoinsShop from "./components/ShopPage/CoinsShop/CoinsShop";
 
 function App() {
   return (

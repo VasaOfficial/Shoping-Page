@@ -39,21 +39,21 @@
 }
 
 .card:first-child {
-  background-image: url('../../assets/ancientCoins.jpg');
+  background-image: url('../../assets/HomePageImg/ancientCoins.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .card:nth-child(2) {
-  background-image: url('../../assets/paintings.jpg');
+  background-image: url('../../assets/HomePageImg/paintings.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .card:nth-child(3) {
-  background-image: url('../../assets/masks.jpg');
+  background-image: url('../../assets/HomePageImg/masks.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
