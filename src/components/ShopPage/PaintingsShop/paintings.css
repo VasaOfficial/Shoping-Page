@@ -33,3 +33,10 @@ body {
 .painting-cards p {
   max-width: 250px;
 }
+
+.painting-cards .cart-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  cursor: pointer;
+}

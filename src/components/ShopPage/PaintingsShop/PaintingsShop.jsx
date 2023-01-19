@@ -3,6 +3,7 @@ import "./paintings.css";
 import clocks from "../../../assets/PaintingsShopImg/clocks.jpg";
 import night from "../../../assets/PaintingsShopImg/night.jpg";
 import wave from "../../../assets/PaintingsShopImg/wave.png";
+import cart from "../../../assets/add-to-cart.png";
 
 const PaintingsShop = () => {
   const products = [
@@ -40,6 +41,7 @@ const PaintingsShop = () => {
           <h3>{product.name}</h3>
           <p>{product.description}</p>
           <p>Price: {product.price}</p>
+          <img src={cart} alt="Add to Cart" className="cart-icon" />
         </div>
       ))}
     </div>

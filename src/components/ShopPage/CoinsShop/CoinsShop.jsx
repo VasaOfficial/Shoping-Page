@@ -3,6 +3,7 @@ import "./coins.css";
 import roman from "../../../assets/CoinsShopImg/roman.jpg";
 import spanish from "../../../assets/CoinsShopImg/spanish.jpg";
 import chinese from "../../../assets/CoinsShopImg/chinese.jpg";
+import cart from "../../../assets/add-to-cart.png";
 
 const CoinsShop = () => {
   const products = [
@@ -39,6 +40,7 @@ const CoinsShop = () => {
           <h3>{product.name}</h3>
           <p>{product.description}</p>
           <p>Price: {product.price}</p>
+          <img src={cart} alt="Add to Cart" className="cart-icon" />
         </div>
       ))}
     </div>

@@ -3,6 +3,7 @@ import "./masks.css";
 import aztec from "../../../assets/MaskShopImg/aztec.jpg";
 import tut from "../../../assets/MaskShopImg/tut.jpg";
 import agamemnon from "../../../assets/MaskShopImg/agamemnon.jpg";
+import cart from "../../../assets/add-to-cart.png";
 
 const MasksShop = () => {
   const products = [
@@ -39,6 +40,7 @@ const MasksShop = () => {
           <h3>{product.name}</h3>
           <p>{product.description}</p>
           <p>Price: {product.price}</p>
+          <img src={cart} alt="Add to Cart" className="cart-icon" />
         </div>
       ))}
     </div>
