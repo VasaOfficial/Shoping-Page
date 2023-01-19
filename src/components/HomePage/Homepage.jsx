@@ -5,28 +5,19 @@ import "./homepage.css";
 const Home = () => {
   const navigate = useNavigate();
 
-  // refacture this bullshit 
-  const handleClickCoins = () => {
-    navigate("./ShopPage/CoinsShop");
-  };
-
-  const handleClickPaintings = () => {
-    navigate("./ShopPage/PaintingsShop");
-  };
-
-  const handleClickMask = () => {
-    navigate("./ShopPage/MaskShop");
+  const handleClick = (route) => {
+    navigate(`./ShopPage/${route}`);
   };
 
   return (
     <div className="homepage">
-      <div className="card" onClick={handleClickCoins}>
+      <div className="card" onClick={() => handleClick("CoinsShop")}>
         <h3>Ancient Coins</h3>
       </div>
-      <div className="card" onClick={handleClickPaintings}>
+      <div className="card" onClick={() => handleClick("PaintingsShop")}>
         <h3>Paintings</h3>
       </div>
-      <div className="card" onClick={handleClickMask}>
+      <div className="card" onClick={() => handleClick("MaskShop")}>
         <h3>Masks</h3>
       </div>
     </div>
