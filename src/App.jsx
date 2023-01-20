@@ -5,7 +5,6 @@ import Navbar from "./components/NavBar/Navbar";
 import CoinsShop from "./components/ShopPage/CoinsShop/CoinsShop";
 import PaintingsShop from "./components/ShopPage/PaintingsShop/PaintingsShop";
 import MasksShop from "./components/ShopPage/MaskShop/MaskShop";
-import Cart from "./components/ShopPage/Cart/CartPage";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
         <Route path="/ShopPage/CoinsShop" element={<CoinsShop />} />
         <Route path="/ShopPage/PaintingsShop" element={<PaintingsShop />} />
         <Route path="/ShopPage/MaskShop" element={<MasksShop />} />
-        <Route path="/ShopPage/Cart" element={<Cart />} />
       </Routes>
     </BrowserRouter>
   );

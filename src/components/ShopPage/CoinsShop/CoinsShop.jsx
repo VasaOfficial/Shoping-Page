@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./coins.css";
 import roman from "../../../assets/CoinsShopImg/roman.jpg";
 import spanish from "../../../assets/CoinsShopImg/spanish.jpg";
@@ -33,17 +33,19 @@ const CoinsShop = () => {
   ];
 
   return (
-    <div className="coin-page">
-      {products.map((product) => (
-        <div key={product.id} className="coin-cards">
-          <img src={product.img} alt={product.name} />
-          <h3>{product.name}</h3>
-          <p>{product.description}</p>
-          <p>Price: {product.price}</p>
-          <img src={cart} alt="Add to Cart" className="cart-icon" />
-        </div>
-      ))}
-    </div>
+    <>
+      <div className="coin-page">
+        {products.map((product) => (
+          <div key={product.id} className="coin-cards">
+            <img src={product.img} alt={product.name} />
+            <h3>{product.name}</h3>
+            <p>{product.description}</p>
+            <p>Price: {product.price}</p>
+            <img src={cart} alt="Add to Cart" className="cart-icon" />
+          </div>
+        ))}
+      </div>
+    </>
   );
 };
 
